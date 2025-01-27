@@ -27,7 +27,7 @@ library(pROC)
 \newpage
 ```{r}
 #import the data file
-musicData <- read.csv("C:\\Users\\Iris\\Desktop\\STA 478\\final project\\music\\billboard_24years_lyrics_spotify.csv")
+musicData <- read.csv("C:\\FILE_PATH")
 
 #create a dataframe that has 7 max characters
 ## makes the printed table shorter (fits in one page now)
